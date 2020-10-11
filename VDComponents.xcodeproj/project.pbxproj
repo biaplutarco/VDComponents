@@ -18,6 +18,7 @@
 		27B01D5B25339CD8002C89D3 /* VDComponentsSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D5925339CD8002C89D3 /* VDComponentsSample.xcdatamodeld */; };
 		27B01D6625339CD8002C89D3 /* VDComponentsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D6525339CD8002C89D3 /* VDComponentsSampleTests.swift */; };
 		27B01D7125339CD8002C89D3 /* VDComponentsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D7025339CD8002C89D3 /* VDComponentsSampleUITests.swift */; };
+		27B01D8225339DBF002C89D3 /* VDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D8125339DBF002C89D3 /* VDTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		27B01D6C25339CD8002C89D3 /* VDComponentsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDComponentsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B01D7025339CD8002C89D3 /* VDComponentsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDComponentsSampleUITests.swift; sourceTree = "<group>"; };
 		27B01D7225339CD8002C89D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B01D8125339DBF002C89D3 /* VDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		27B01D4125339C58002C89D3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				27B01D8125339DBF002C89D3 /* VDTextField.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B01D8225339DBF002C89D3 /* VDTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +635,7 @@
 		27B01C86253399A4002C89D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3RQC49HYF;
 				INFOPLIST_FILE = VDComponentsTests/Info.plist;
@@ -649,6 +654,7 @@
 		27B01C87253399A4002C89D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3RQC49HYF;
 				INFOPLIST_FILE = VDComponentsTests/Info.plist;
