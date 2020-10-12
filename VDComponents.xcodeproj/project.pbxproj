@@ -21,6 +21,8 @@
 		27B01D8225339DBF002C89D3 /* VDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D8125339DBF002C89D3 /* VDTextField.swift */; };
 		27B01D8925339EBE002C89D3 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D8825339EBE002C89D3 /* CircularTransition.swift */; };
 		27B01D9225339F07002C89D3 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D9125339F07002C89D3 /* UIColor+AppColors.swift */; };
+		27B01D9E2534C37C002C89D3 /* VDStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01D9D2534C37B002C89D3 /* VDStackView.swift */; };
+		27B01DAA2534C391002C89D3 /* VDStackViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B01DA92534C391002C89D3 /* VDStackViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		27B01D8125339DBF002C89D3 /* VDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDTextField.swift; sourceTree = "<group>"; };
 		27B01D8825339EBE002C89D3 /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 		27B01D9125339F07002C89D3 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
+		27B01D9D2534C37B002C89D3 /* VDStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDStackView.swift; sourceTree = "<group>"; };
+		27B01DA92534C391002C89D3 /* VDStackViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDStackViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,7 @@
 		27B01D8F25339EE6002C89D3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				27B01DB02534C39E002C89D3 /* StackView */,
 				27B01D8125339DBF002C89D3 /* VDTextField.swift */,
 				27B01D8825339EBE002C89D3 /* CircularTransition.swift */,
 			);
@@ -220,6 +225,15 @@
 				27B01D9125339F07002C89D3 /* UIColor+AppColors.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27B01DB02534C39E002C89D3 /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				27B01D9D2534C37B002C89D3 /* VDStackView.swift */,
+				27B01DA92534C391002C89D3 /* VDStackViewDelegate.swift */,
+			);
+			path = StackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +438,8 @@
 				27B01D8225339DBF002C89D3 /* VDTextField.swift in Sources */,
 				27B01D8925339EBE002C89D3 /* CircularTransition.swift in Sources */,
 				27B01D9225339F07002C89D3 /* UIColor+AppColors.swift in Sources */,
+				27B01D9E2534C37C002C89D3 /* VDStackView.swift in Sources */,
+				27B01DAA2534C391002C89D3 /* VDStackViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
